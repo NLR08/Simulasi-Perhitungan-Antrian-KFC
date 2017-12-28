@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.baperanz.customer.perhitungankfc.HasilActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:srcCompat="@drawable/logokfc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="sans-serif"
+        android:text="Hasil Perhitungan"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="M/G/1/I/I"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp" />
+
+    <TextView
+        android:id="@+id/hasil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="118dp"
+        android:text="Jumlah Individu Dalam Antrian (Lq) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hasil1"
+        android:layout_alignStart="@+id/hasil1"
+        android:layout_below="@+id/hasil1"
+        android:layout_marginTop="27dp"
+        android:text="Jumlah Individu Dalam Sistem (Ls) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hasil2"
+        android:layout_alignStart="@+id/hasil2"
+        android:layout_below="@+id/hasil2"
+        android:layout_marginTop="29dp"
+        android:text="Waktu Rata-rata Dalam Antrian (Wq) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hasil3"
+        android:layout_alignStart="@+id/hasil3"
+        android:layout_below="@+id/hasil3"
+        android:layout_marginTop="30dp"
+        android:text="Waktu Rata-rata Dalam Sistem (Ws) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hasil4"
+        android:layout_alignStart="@+id/hasil4"
+        android:layout_below="@+id/hasil4"
+        android:layout_marginTop="31dp"
+        android:text="Prob. fasilitas Server Sibuk (P) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hasil5"
+        android:layout_alignStart="@+id/hasil5"
+        android:layout_below="@+id/hasil5"
+        android:layout_marginTop="27dp"
+        android:text="Prob. fasilitas Server Idle (P0) = "
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="KEMBALI"
+        android:paddingLeft="24dp"
+        android:paddingRight="32dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/hasil6"
+        android:layout_alignLeft="@+id/hasil6"
+        android:layout_alignStart="@+id/hasil6" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/colorPrimaryDark"
+        android:text="UJI 2 SERVER"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/buttonBack"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/buttonBack" />
+</RelativeLayout>

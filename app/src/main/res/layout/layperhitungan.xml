@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hasil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Individu Dalam Antrian (Lq) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Individu Dalam Sistem (Ls) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Rata-rata Dalam Antrian (Wq) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu Rata-rata Dalam Sistem (Ws) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prob. fasilitas Server Sibuk (P) = "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/hasil6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prob. fasilitas Server Idle (P0) = "
+        android:textColor="@android:color/black" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+</LinearLayout>

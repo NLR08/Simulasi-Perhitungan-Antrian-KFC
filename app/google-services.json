@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "480924683027",
+    "firebase_url": "https://sembarang-67498.firebaseio.com",
+    "project_id": "sembarang-67498",
+    "storage_bucket": "sembarang-67498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480924683027:android:7d9a21de5712c3bb",
+        "android_client_info": {
+          "package_name": "com.baperanz.customer.perhitungankfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480924683027-np7bnglbd5g1vnn60jb3l93kbegih9uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baperanz.customer.perhitungankfc",
+            "certificate_hash": "a05ed337ef40dfe997526cd978315622261de782"
+          }
+        },
+        {
+          "client_id": "480924683027-9ks7m4e0ms34cq4mrvjq915gn1ekn3jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEuu1XZy4t1qUsfq1c99vQ84ol4_99sm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480924683027-9ks7m4e0ms34cq4mrvjq915gn1ekn3jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

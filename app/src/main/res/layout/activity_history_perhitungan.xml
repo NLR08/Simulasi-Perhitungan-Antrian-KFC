@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baperanz.customer.perhitungankfc.HistoryPerhitungan">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History Perhitungan"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/txthistory"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txthistory"
+        android:text="Tidak Ada data"
+        android:id="@+id/txtTidakada"
+        android:textColor="#000"/>
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll"
+        android:layout_below="@id/txthistory">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recHistory"
+            />
+    </ScrollView>
+</RelativeLayout>
